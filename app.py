@@ -5,6 +5,11 @@ import pickle;
 app = Flask (__name__);
 #model = pickle.load (open ('model.pkl', 'rb'));
 
+@app.route ('/')
+def home ():
+    return "Hello Flask"
+
+
 @app.route ('/pred/<p1>/<p2>', methods=['GET'])
 def pred(p1="1", p2="2"):
 
