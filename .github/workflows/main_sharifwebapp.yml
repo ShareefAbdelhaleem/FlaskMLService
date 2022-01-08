@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'sharifwebapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_36B2F9AEEC4540D085417F28A2696BB1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F0E7C4937C3479787C6F53B2BEE68C3 }}
