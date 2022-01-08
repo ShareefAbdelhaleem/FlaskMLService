@@ -16,6 +16,7 @@ easydev==0.12.0
 entrypoints==0.3
 fitter==1.4.0
 Flask==2.0.2
+gunicorn==20.1.0
 fonttools==4.28.5
 ipykernel==6.6.1
 ipython==7.31.0
